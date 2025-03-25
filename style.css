@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    padding: 2rem 1rem;
+    background-color: #111;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  /* Main */
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  ul {
+    text-align: left;
+    display: inline-block;
+    padding-left: 1.2rem;
+    max-width: 600px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    ul {
+      text-align: left;
+      padding-left: 1rem;
+    }
+  }
+  
